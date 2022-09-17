@@ -1,0 +1,42 @@
+.container {
+    width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.container p {
+    text-align: center;
+}
+
+.container .attribute {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+
+.login-button {
+    height: 39px;
+    border: 1px solid #EC6462;
+    border-radius: 10px;
+    background: #EC6462;
+    color: white;
+    text-decoration: none;
+    line-height: 37px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+}
+
+.login-button:hover {
+    background: white;
+    color: #EC6462;
+}

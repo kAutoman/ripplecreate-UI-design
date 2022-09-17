@@ -1,0 +1,233 @@
+.align-center {
+    align-items: center;
+}
+
+.grid-3 {
+    display: grid;
+    grid: auto / auto auto auto;
+    gap: 50px;
+}
+
+.grid-2 {
+    display: grid;
+    grid: auto / auto auto;
+    gap: 50px;
+}
+
+.grid {
+    display: grid;
+    grid: auto / auto auto;
+    gap: 20px;
+}
+
+.button-color-red {
+    border: 1px solid #EC6462;
+    background: #EC6462;
+    color: white;
+}
+
+.button-color-red:hover {
+    background: white;
+    color: #EC6462;
+}
+
+.button-color-blue {
+    border: 1px solid #1835cfab;
+    background: #1835cfab;
+    color: white;
+}
+
+.button-color-blue:hover {
+    background: white;
+    color: #1835cfab;
+}
+
+.button-color-green {
+    border: 1px solid #2ecc50c7;
+    background: #2ecc50c7;
+    color: white;
+}
+
+.button-color-green:hover {
+    background: white;
+    color: #2ecc50c7;
+}
+
+.button {
+    width: 92px;
+    height: 39px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    line-height: 37px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+
+.large-title-font {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 1.7rem;
+    line-height: 29px;
+}
+
+.font {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 19.36px;
+}
+
+.small-font {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 29px;
+}
+
+.justify-right {
+    justify-content: right;
+}
+
+.fill-view {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    background-image: url('./img/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.relative {
+    position: relative;
+}
+
+.smail-title {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 2vw;
+    text-align: center;
+    color: #505258;
+}
+
+.no-margin {
+    margin: 0px !important;
+}
+
+.input-text {
+    border: 1px solid #EEEEEE;
+    border-radius: 10px;
+    flex: 10 0 0;
+    display: flex;
+    height: 60px;
+    padding-left: 29px;
+    padding-right: 20px;
+}
+
+.input-text input {
+    height: 95%;
+    width: 100%;
+    border: none;
+}
+
+.input-text input:active {
+    border: none;
+    outline: none;
+}
+
+.theme {
+    position: fixed;
+    bottom: 20%;
+    transform: translateY(50%);
+    right: 10px;
+}
+
+.theme-set-button {
+    width: 70px;
+    height: 70px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    box-shadow: 27px 16px 40px rgb(112 144 176);
+    display: grid;
+    grid: auto / auto;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.theme:hover .theme-set-button {
+    display: none;
+}
+
+.theme:hover .theme-set {
+    display: grid;
+}
+
+.theme:not( :hover) .theme-set-button {
+    display: grid;
+}
+
+.theme:not( :hover) .theme-set {
+    display: none;
+}
+
+#orderLink:hover #spanRight {
+    animation: spanRight-hover 0.5s;
+    animation-fill-mode: forwards;
+}
+
+/* @keyframes spanRight-hover {
+    from {display: grid;}
+    to {display: none;}
+} */
+
+.theme-set {
+    width: 70px;
+    height: 30vh;
+    background-color: #ffffff;
+    border-radius: 50px;
+    box-shadow: 27px 16px 40px rgb(112 144 176);
+    grid: auto / auto;
+    justify-content: space-around;
+    align-content: space-around;
+    display: none;
+}
+
+.theme .red {
+    background-color: #EC6462;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    border: 3px solid #EC6462;
+}
+
+.theme .blue {
+    background-color: #1835cfab;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    border: 3px solid #ffffff;
+}
+
+.theme .green {
+    background-color: #2ecc50c7;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    border: 3px solid #ffffff;
+}
+
+.theme .seted {
+    border: 3px solid #00eeec;
+}

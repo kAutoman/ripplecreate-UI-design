@@ -1,0 +1,152 @@
+.container {
+    display: grid;
+    grid: auto / 20% auto;
+}
+
+.menu {
+    /* position: fixed; */
+    height: 100vh;
+    display: grid;
+    grid: auto/ auto;
+    justify-content: center;
+    align-content: flex-start;
+    border-right: 2px solid #EEEEEE;
+}
+
+.logo {
+    width: 190px;
+    height: 49px;
+}
+
+.dashboard-header {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0px 36px 0px 36px;
+    height: 9vh;
+    display: grid;
+    grid: auto / auto auto;
+    border-bottom: 2px solid #EEEEEE;
+    background-color: white;
+    z-index: 5;
+}
+
+.list {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    margin-top: 5rem;
+    gap: 2rem;
+}
+
+.list a {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 26px;
+}
+
+.courses {
+    padding: 20px;
+}
+
+.viewer {
+    display: grid;
+    grid: auto / auto auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.viewer h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.7rem;
+    line-height: 58px;
+}
+
+.viewer a {
+    width: 180px;
+    height: 39px;
+    border: 1px solid #EC6462;
+    border-radius: 10px;
+    background: #EC6462;
+    color: white;
+    text-decoration: none;
+    line-height: 37px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    justify-items: end;
+}
+
+.viewer a:hover {
+    background: white;
+    color: #EC6462;
+}
+
+.courses .cards p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 26px;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.js_slide .card {
+    width: 23vw;
+    height: 300px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+}
+
+.js_slide .card .title {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 84px;
+    width: 100%;
+    border: 2px solid #EEEEEE;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+
+.js_slide .card .title p {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 22px;
+    color: #000000;
+    overflow-wrap: break-word;
+    z-index: -1;
+    white-space: pre-wrap;
+}
+
+.js_slide .card .rate {
+    /* display: flex; */
+    justify-content: space-between;
+    height: 16px;
+    display: none;
+}
+
+.js_slide .card .rate p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #787878;
+    z-index: 1;
+}
+
+.js_slide .card:hover .rate {
+    display: flex;
+}
+
+.js_slide .card:hover .title {
+    height: 110px;
+}

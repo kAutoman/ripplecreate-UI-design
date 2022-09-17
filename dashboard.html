@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ripple</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./assets/header.css">
+    <link rel="stylesheet" href="./assets/dashboard.css">
+    <link rel="stylesheet" href="./assets/attr.css">
+    <link rel="shortcut icon" type="image/ico" href="./static/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="./static/app.css" />
+    <link rel="stylesheet" type="text/css" href="./static/vendor/railscasts.css" />
+
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="../../maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="../../maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</head>
+
+<body style="margin: 0px">
+    <div class="container">
+        <div class="menu" style="position: fixed; width: 20%;">
+            <div style="height: 9vh; display: flex; flex-flow: column; justify-content: center;">
+                <a href="./index.html">
+                    <img class="logo align-center" src="./assets/img/logo.png" alt="ripple">
+                </a>
+            </div>
+            <div class="list">
+                <a>Dashboard</a>
+                <a>Manage Students</a>
+                <a>Manage Courses</a>
+            </div>
+        </div>
+        <div></div>
+        <div class="content" style="overflow-y:auto;">
+            <div class="dashboard-header align-center">
+                <div></div>
+                <div class="grid-2 justify-right">
+                    <img src="./assets/img/ring.png" alt="ring">
+                    <img src="./assets/img/avatar.png" alt="avatar">
+                </div>
+            </div>
+            <div class="courses">
+                <div class="viewer">
+                    <h1>Courses</h1>
+                    <a class="">Create Course</a>
+                </div>
+                <div class="cards" style="margin-top: 40px;">
+                    <p>DEVELOPMENT</p>
+                    <div style="width: 100%;">
+                        <div class="slider js_variablewidth variablewidth no-margin" style="width: 77vw;">
+                            <div class="frame js_frame no-margin" style="width: 100%">
+                                <ul class="slides js_slides">
+                                    <li class="js_slide"
+                                        style="width: 23vw; height: 300px; border-radius: 10px; margin-right: 20px;">
+                                        <div class="card relative">
+                                            <div class="title">
+                                                <p>The Complete 2022 Web Development Bootcamp</p>
+                                                <div class="rate">
+                                                    <img src="./assets/img/rate.png" />
+                                                    <p>6 hours</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="js_slide"
+                                        style="width: 23vw; height: 300px; border-radius: 10px; margin-right: 20px;">
+                                        <div class="card relative">
+                                            <div class="title">
+                                                <p>The Complete 2022 Web Development Bootcamp</p>
+                                                <div class="rate">
+                                                    <img src="./assets/img/rate.png" />
+                                                    <p>6 hours</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="js_slide"
+                                        style="width:23vw; height: 300px; border-radius: 10px; margin-right: 20px;">
+                                        <div class="card relative">
+                                            <div class="title">
+                                                <p>The Complete 2022 Web Development Bootcamp</p>
+                                                <div class="rate">
+                                                    <img src="./assets/img/rate.png" />
+                                                    <p>6 hours</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="js_slide"
+                                        style="width: 23vw; height: 300px; border-radius: 10px; margin-right: 20px;">
+                                        <div class="card relative">
+                                            <div class="title">
+                                                <p>The Complete 2022 Web Development Bootcamp</p>
+                                                <div class="rate">
+                                                    <img src="./assets/img/rate.png" />
+                                                    <p>6 hours</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="js_slide"
+                                        style="width: 23vw; height: 300px; border-radius: 10px; margin-right: 20px;">
+                                        <div class="card relative">
+                                            <div class="title">
+                                                <p>The Complete 2022 Web Development Bootcamp</p>
+                                                <div class="rate">
+                                                    <img src="./assets/img/rate.png" />
+                                                    <p>6 hours</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards" style="margin-top: 80px;">
+                    <p>DEVELOPMENT</p>
+                    <div style="width: 100%;">
+                        <div class="slider js_variablewidth variablewidth no-margin" style="width: 77vw;">
+                            <div class="frame js_frame no-margin" style="width: 100%">
+                                <ul class="slides js_slides">
+                                    <li class="js_slide"
+                                        style="width: 23vw; height: 300px; border-radius: 10px; margin-right: 20px;">
+                                        <div class="card relative">
+                                            <div class="title">
+                                                <p>The Complete 2022 Web Development Bootcamp</p>
+                                                <div class="rate">
+                                                    <img src="./assets/img/rate.png" />
+                                                    <p>6 hours</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="js_slide"
+                                        style="width: 23vw; height: 300px; border-radius: 10px; margin-right: 20px;">
+                                        <div class="card relative">
+                                            <div class="title">
+                                                <p>The Complete 2022 Web Development Bootcamp</p>
+                                                <div class="rate">
+                                                    <img src="./assets/img/rate.png" />
+                                                    <p>6 hours</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="js_slide"
+                                        style="width:23vw; height: 300px; border-radius: 10px; margin-right: 20px;">
+                                        <div class="card relative">
+                                            <div class="title">
+                                                <p>The Complete 2022 Web Development Bootcamp</p>
+                                                <div class="rate">
+                                                    <img src="./assets/img/rate.png" />
+                                                    <p>6 hours</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="js_slide"
+                                        style="width: 23vw; height: 300px; border-radius: 10px; margin-right: 20px;">
+                                        <div class="card relative">
+                                            <div class="title">
+                                                <p>The Complete 2022 Web Development Bootcamp</p>
+                                                <div class="rate">
+                                                    <img src="./assets/img/rate.png" />
+                                                    <p>6 hours</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="js_slide"
+                                        style="width: 23vw; height: 300px; border-radius: 10px; margin-right: 20px;">
+                                        <div class="card relative">
+                                            <div class="title">
+                                                <p>The Complete 2022 Web Development Bootcamp</p>
+                                                <div class="rate">
+                                                    <img src="./assets/img/rate.png" />
+                                                    <p>6 hours</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./assets/action.js"></script>
+<script src="./assets/lory.min.js"></script>
+<script>
+    'use strict';
+
+    document.addEventListener('DOMContentLoaded', function () {
+        var simple = document.querySelector('.js_simple');
+        var simple_dots = document.querySelector('.js_simple_dots');
+        var percentage = document.querySelector('.js_percentage');
+        var rewind = document.querySelector('.js_rewind');
+        var rewind_percentage = document.querySelector('.js_rewind_percentage');
+        var variableWidth = document.querySelector('.js_variablewidth');
+        var multiSlides = document.querySelector('.js_multislides');
+        var ease = document.querySelector('.js_ease');
+        var events = document.querySelector('.js_events');
+
+
+        lory(variableWidth, {
+            rewind: true,
+            enableMouseEvents: true
+        });
+
+        function handleEvent(e) {
+            var newSpan = document.createElement('span');
+            var time = new Date();
+            time = time.getHours() + ':' + time.getMinutes() + ':' + time.getSeconds() + ',' + time.getMilliseconds();
+            var newContent = document.createTextNode('[' + time + '] Event dispatched: "' + e.type + '"');
+            newSpan.appendChild(newContent);
+            e.target.nextElementSibling.appendChild(newSpan);
+        }
+    });
+</script>
+
+</html>

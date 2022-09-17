@@ -1,0 +1,458 @@
+.no-padding {
+    padding: 0px;
+}
+
+.main {
+    display: grid;
+    grid: auto / auto;
+    gap: 20px;
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-title {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 4vw;
+    line-height: 5vw;
+    text-align: center;
+}
+
+.main-input-text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    align-items: center;
+}
+
+.main-input-text .select-input {
+    border-left: 2px solid #EEEEEE;
+    border-top: 2px solid #EEEEEE;
+    border-bottom: 2px solid #EEEEEE;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    flex: 10 0 0;
+    display: flex;
+    height: 100%;
+    padding-left: 29px;
+    padding-right: 20px;
+    background-color: #FFFFFF;
+}
+
+.main-input-text .input-button-red {
+    border-right: 1px solid #EC6462;
+    border-top: 1px solid #EC6462;
+    border-bottom: 1px solid #EC6462;
+    background-color: #EC6462;
+    color: white;
+}
+
+.main-input-text .input-button-blue {
+    border-right: 1px solid #1835cfab;
+    border-top: 1px solid #1835cfab;
+    border-bottom: 1px solid #1835cfab;
+    background-color: #1835cfab;
+    color: white;
+}
+
+.main-input-text .input-button-green {
+    border-right: 1px solid #2ecc50c7;
+    border-top: 1px solid #2ecc50c7;
+    border-bottom: 1px solid #2ecc50c7;
+    background-color: #2ecc50c7;
+    color: white;
+}
+
+.main-input-text .input-button {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    flex: 1.5 0 0;
+    height: 100%;
+    line-height: 60px;
+    text-align: center;
+}
+
+.select-input .input {
+    height: 95%;
+    flex: 5 0 0;
+    font-family: Inter;
+    font-size: 16px;
+    line-height: 19.36px;
+    border: 0px;
+}
+
+.select-input .input:active {
+    border: none;
+    outline: none;
+}
+
+.search-icon {
+    margin-right: 20px;
+    width: 24px;
+    height: 24px;
+}
+
+.bet {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    font-family: Inter;
+    font-size: 30px;
+    color: #EEEEEE;
+}
+
+.category-button {
+    font-family: Inter;
+    font-size: 16px;
+    line-height: 19.36px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-left: 1px solid #EEEEEE;
+    padding-left: 20px;
+}
+
+.category-button p {
+    font-family: Inter;
+    font-size: 16px;
+    line-height: 19.36px;
+    text-align: center;
+    color: rgba(120, 120, 120, 0.8);
+}
+
+.student1 {
+    position: absolute;
+    left: 18vw;
+    top: 12vh;
+}
+
+.student2 {
+    position: absolute;
+    left: 8vw;
+    top: 45vh;
+}
+
+.student3 {
+    position: absolute;
+    left: 15vw;
+    top: 77vh;
+}
+
+.student4 {
+    position: absolute;
+    right: 8vw;
+    top: 49vh;
+}
+
+.student5 {
+    position: absolute;
+    right: 23vw;
+    top: 80vh;
+}
+
+.student6 {
+    position: absolute;
+    left: 42vw;
+    top: 16vh;
+}
+
+.student7 {
+    position: absolute;
+    right: 27vw;
+    top: 15vh;
+}
+
+.student8 {
+    position: absolute;
+    left: 43vw;
+    top: 75vh;
+}
+
+.slope {
+    margin-top: 100px;
+    padding-left: 92px;
+    padding-right: 92px;
+    display: grid;
+    grid-template-columns: 35% 5% auto;
+}
+
+.slope-title {
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 3vw;
+    line-height: 4vw;
+}
+
+.slope-detail {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px;
+}
+
+.detail-item {
+    display: grid;
+    grid: auto / auto;
+    gap: 20px;
+}
+
+.card-title {
+    font-family: Inter;
+    font-size: 1.4vw;
+    line-height: 2vw;
+}
+
+.card-content {
+    font-family: Inter;
+    font-size: 1vw;
+    line-height: 1.7vw;
+}
+
+.course {
+    margin-top: 140px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.course-content {
+    display: grid;
+    grid: auto / auto auto auto auto;
+    gap: 20px;
+}
+
+.course-card {
+    display: grid;
+    grid: auto / auto;
+    gap: 20px;
+}
+
+.course-card-title {
+    margin: 0px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.course-card-learner {
+    margin: 0px;
+    font-family: Inter;
+    font-size: 12px;
+    line-height: 26px;
+    color: #505258;
+}
+
+.summary {
+    display: grid;
+    grid: auto / 45% auto;
+    gap: 20px;
+    background-color: #fbfbfb;
+    margin-top: 140px;
+    height: 461px;
+}
+
+.summary .content {
+    width: 50%;
+    margin-top: 138px;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+.summary .content span {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 1.5vw;
+    line-height: 2vw;
+    margin: 0px;
+}
+
+.summary .content p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 1.8vw;
+    margin: 0px;
+}
+
+.summary .container {
+    width: 80%;
+    display: grid;
+    grid: auto / 90% auto;
+    gap: 20px;
+}
+
+.summary .container .card-list {
+    height: 100%;
+    position: relative;
+}
+
+.summary .container .card-list .card1 {
+    position: absolute;
+    bottom: 60px;
+    right: 20px;
+    z-index: 1;
+    background-color: #fbfbfb;
+    border: 2px solid #EEEEEE;
+    border-radius: 10px;
+    padding: 50px;
+    width: 467px;
+    box-sizing: border-box;
+    display: grid;
+    grid: auto / auto;
+    gap: 10px;
+}
+
+.summary .container .card-list .card1 p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0px;
+    color: #505258;
+}
+
+.summary .container .card-list .card1 .owner {
+    width: 40%;
+    display: grid;
+    grid: auto / 40% auto;
+}
+
+
+.summary .container .card-list .card2 {
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    z-index: 2;
+    background-color: #FFFFFF;
+    border: 2px solid #EEEEEE;
+    border-radius: 10px;
+    padding: 50px;
+    width: 467px;
+    box-sizing: border-box;
+    display: grid;
+    grid: auto / auto;
+    gap: 10px;
+    box-shadow: 0px 16px 40px rgba(112, 144, 176, 0.2);
+}
+
+.summary .container .card-list .card2 p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0px;
+    color: #505258;
+}
+
+.summary .container .card-list .card2 .owner {
+    width: 40%;
+    display: grid;
+    grid: auto / 40% auto;
+}
+
+.summary .container .slide-icon {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sign-card {
+    width: 60%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 100px;
+    display: grid;
+    grid: auto / 55% auto;
+    padding: 60px;
+    box-shadow: 0px 16px 40px rgba(112, 144, 176, 0.2);
+}
+
+.sign-card .content {
+    display: grid;
+    grid: auto / auto;
+    gap: 10px;
+}
+
+.sign-card .content span {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 3vw;
+    line-height: 2vw;
+    margin: 0px;
+}
+
+.sign-card .content p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 1.7vw;
+    margin: 0px;
+}
+
+.about-desc {
+    margin-top: 100px;
+    display: grid;
+    grid: auto / 35% auto;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.desc {
+    display: grid;
+    grid: auto / auto;
+    width: 70%;
+}
+
+.desc p {
+    margin: 0px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.about-desc .other {
+    display: grid;
+    grid: auto / auto auto auto auto;
+}
+
+.about-desc .other div {
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+}
+
+.about-desc .other div span {
+    margin: 0px;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #EC6462;
+}
+
+.about-desc .other div p {
+    margin: 0px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #505258;
+}
+
+.footer {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.footer p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
